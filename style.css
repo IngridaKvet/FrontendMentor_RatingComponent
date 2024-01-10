@@ -1,0 +1,123 @@
+html{
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+    height: 100%;
+    
+}
+
+body{
+
+
+
+    height: 100%;
+    
+display: grid;
+}
+
+
+
+.wholeContainer{
+    display: grid;
+    place-self: center;
+}
+
+.ratingContainer,
+.thanks{
+    background: linear-gradient(#1E252F,#171E28);    
+    height: 415px;
+    width: 407px;
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2;
+    
+    
+
+   
+}
+
+
+.ratingContainer{
+   
+}
+
+
+.thanks{
+    display: none;
+
+   
+}
+
+.iconContainer{
+    background-color: #272E38;
+    border-radius: 50%;
+    width: 48px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+    margin-left: 34px;
+}
+
+h1{
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 34px;
+    margin-top: 37px;
+}
+
+p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 34px;
+    margin-right: 48px;
+    margin-top: 24px;
+    color:#9198A2
+}
+
+.btnContainer{
+    margin: 0;
+    margin-left: 34px;
+    margin-top: 35px;
+    margin-bottom: 31px;
+    display: flex;
+    gap: 19px;
+}
+
+
+
+.numberBtn{
+    color: #838396;
+    width: 52px;
+    height: 52px;
+    background-color: #262f38;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 700;
+    padding: 0;
+}
+
+.submitBtn{
+    width: 341px;
+    height: 45px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #fc7613;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 34px;
+}
+
+.attribution { font-size: 11px;
+
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
