@@ -18,7 +18,8 @@
   <!-- Rating state start -->
 
 <div class="wholeContainer">
-<section class="ratingContainer">
+<section id="ratingContainer">
+  
 
   <div class="iconContainer">
     <img src="img/icon-star.svg">
@@ -27,20 +28,23 @@
   <header class="heading"><h1>How did we do?</h1></header>
 
 
-  <article><p>Please let us know how we did with your support request. All feedback is appreciated 
+  <article><p id="firstP">Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p></article>
 
   <div class="btnContainer">
-  <button class="numberBtn">1</button>
-  <button class="numberBtn">2</button>
-  <button class="numberBtn">3</button>
-  <button class="numberBtn">4</button>
-  <button class="numberBtn">5</button>
+
+
+  <button class="numberBtn" value="1" >1</button>
+  <button  class="numberBtn" value="2" >2</button>
+  <button  class="numberBtn" value="3">3</button>
+  <button class="numberBtn" value="4" >4</button>
+  <button class="numberBtn" value="5">5</button>
   </div>
 
-  <div>
-  <button class="submitBtn">SUBMIT</button>
-  </div>
+
+  <button id="submitBtn" onclick="submitPressed()">SUBMIT</button>
+
+
 
 </section>
 
@@ -48,19 +52,19 @@
 
 
 
-  <section class="thanks">
-    ffff
+  <section id="thanksContainer">
+
+    <img src="img/illustration-thank-you.svg" class="illustrationThankYou">
+
+    <div class="selectionDiv"></div>
+
+    <h1> Thank you!</h1>
+
+    <p id="secondP">  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+
   </section>
-  <!--
-<div class="thankYouContainer">
-  You selected    Add rating here    out of 5
 
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-</div> -->
 
 
 
@@ -74,4 +78,6 @@
 
 
 </body>
+
+<script src="script.js"></script>
 </html>
