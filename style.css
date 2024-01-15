@@ -137,10 +137,7 @@ p{
     background-color: #fff;
 }
 
-.attribution { font-size: 11px;
 
- }
-.attribution a { color: hsl(228, 45%, 44%); }
 
 
 .numberBtn:focus { 
@@ -174,23 +171,28 @@ margin-top: 45px;
 
 }
 
-.selectionDiv{
-    height: 34px;
-    width: 193px;
-   
-    background-color: #262F38;
-    color: #fb7613;
-    border-radius: 15px;
-    
+#content{
+margin: auto;
 }
 
-
+#ratingTextDiv{
+  display: flex;
+    justify-content: center;
+    justify-self: center;   
+    height: 34px;
+   width: 193px;   
+     background-color: #262F38;
+    color: #fb7613;
+    border-radius: 15px;
+}
 
 
 #secondP{
     text-align: center;
     margin-bottom: 56px;
     width: 336px;
+    color:#9198A2;
+
 }
 
 
@@ -217,3 +219,19 @@ margin-top: 45px;
  
     
 }
+
+
+.attribution { 
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#9198A2;
+
+    
+
+}
+.attribution a {
+     color: #fff
+    }
+
